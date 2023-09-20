@@ -1,0 +1,51 @@
+/* CSS Centering Code with the Universal Selector "*" */ 
+
+* {
+
+text-align: center;
+
+}
+
+/*Alternative CSS Centering Code with the "body" Selector*/
+
+body {
+
+text-align: center;
+background-color: rgb(43, 43, 43);
+
+}
+
+/* Styling */
+
+body {
+  font-weight: 300;
+  margin: auto;
+  width: 640px; 
+  padding: 50px;
+  font-family: 'Lexend Deca', sans-serif; 
+  color: #ffffff;    
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(10px) saturate(200%) brightness(70%);
+    color: #fff;
+    display: flex;
+    height: 3vw;
+    width: 100%;
+    align-items: center;
+    justify-content: left;
+    padding: 0 1%;
+    z-index: 5;
+    margin: auto;
+}
+nav img {
+  height: 80%;
+  width: auto;
+  margin-right: 1%;
+  border-radius: 1vw;
+  cursor: pointer;
+  user-select: none;
+  box-shadow: 3px 3px 3px rgba(53, 53, 53, 0.459);
+}
